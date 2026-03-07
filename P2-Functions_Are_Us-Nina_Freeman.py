@@ -9,9 +9,9 @@ def introduction(name):
     #making the input grammatically correct
     name = name.title()
     #print welcome message and rules, personalizing it with the user name
-    print(f'Welcome {name} to our Soccer Season Simulator! Throughout this program you will get to pick your own home team, ')
+    print(f'Welcome {name} to our Soccer Season Simulator! Throughout this program you will get to pick your own home team ')
     print(f'and they will go up against various other teams of your choosing.')
-    print('Scores for each game will be randomized, resulting in the highest score winning.')
+    print('Scores for each game will be randomized, resulting in the higher score winning.')
     print("After playing through, you'll be able to review the scores for each game.\n")
     print('---Have fun and good luck!---')
     #return the name inputted so it can be used later on
